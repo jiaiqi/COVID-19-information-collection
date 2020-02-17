@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/tablist/navTab"],{"1ba7":function(t,n,i){"use strict";i.r(n);var a=i("d8fa"),e=i("d9c8");for(var c in e)"default"!==c&&function(t){i.d(n,t,function(){return e[t]})}(c);i("ad5a");var u,r=i("f0c5"),s=Object(r["a"])(e["default"],a["b"],a["c"],!1,null,null,null,!1,a["a"],u);n["default"]=s.exports},"1f67":function(t,n,i){"use strict";(function(t){Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var i={name:"navTab",props:{tabTitle:{type:Array,default:[]},currentTab:{type:Number,default:0}},data:function(){return{tabClick:0,isLeft:0,isWidth:0,tabLeft:0}},created:function(){var n=this;t.getSystemInfo({success:function(t){n.tabTitle.length<=5?n.isWidth=t.windowWidth/n.tabTitle.length:n.isWidth=t.windowWidth/5}}),this.tabClick=this.currentTab,console.log("Nav:",this.currentTab,this.tabClick),this.longClick(this.currentTab)},methods:{longClick:function(t){if(this.tabTitle.length>5){var n=t-2;n=n<=0?0:n,this.tabLeft=(t-2)*this.isWidth}this.tabClick=t,this.isLeft=t*this.isWidth,this.$emit("changeTab",t)}},watch:{currentTab:{handler:function(t,n){}}}};n.default=i}).call(this,i("543d")["default"])},ad5a:function(t,n,i){"use strict";var a=i("b76f"),e=i.n(a);e.a},b76f:function(t,n,i){},d8fa:function(t,n,i){"use strict";var a,e=function(){var t=this,n=t.$createElement;t._self._c},c=[];i.d(n,"b",function(){return e}),i.d(n,"c",function(){return c}),i.d(n,"a",function(){return a})},d9c8:function(t,n,i){"use strict";i.r(n);var a=i("1f67"),e=i.n(a);for(var c in a)"default"!==c&&function(t){i.d(n,t,function(){return a[t]})}(c);n["default"]=e.a}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/tablist/navTab-create-component',
+    {
+        'components/tablist/navTab-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("1ba7"))
+        })
+    },
+    [['components/tablist/navTab-create-component']]
+]);

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "疫情信息采集",
+  "navigationBarBackgroundColor": "#0081ff",
+  "usingComponents": {
+    "refresh": "/components/tablist/refresh",
+    "nav-tab": "/components/tablist/navTab",
+    "tab-bar4": "/components/tablist/tabBar4",
+    "bxform": "/components/form"
+  }
+}

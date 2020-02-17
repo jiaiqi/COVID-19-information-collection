@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "新增车辆",
+  "navigationBarBackgroundColor": "#0081ff",
+  "usingComponents": {
+    "bxform": "/components/form"
+  }
+}

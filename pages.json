@@ -1,0 +1,82 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+
+		// {
+		// 	"path": "pages/search/search",
+		// 	"style": {}
+		// },
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "疫情信息采集",
+				"navigationBarBackgroundColor": "#0081ff"
+			}
+		},
+		{
+			"path": "pages/takePhotos/takePhotos",
+			"style": {}
+		},
+		// {
+		//  "path" : "pages/informationManagement/informationManagement",
+		//  "style" : {}
+		// },
+		{
+			"path": "pages/checkInCarInfo/checkInCarInfo",
+			"style": {
+				"navigationBarTitleText": "新增车辆",
+				"navigationBarBackgroundColor": "#0081ff"
+			}
+		}, {
+			"path": "pages/checkInPersonInfo/checkInPersonInfo",
+			"style": {
+				"navigationBarTitleText": "新增人员",
+				"navigationBarBackgroundColor": "#0081ff"
+			}
+		}
+		// ,{
+		//     "path" : "pages/takePhotos/takePhotos",
+		//     "style" : {}
+		// }
+		,{
+		       "path" : "pages/search/search",
+		       "style" : {}
+		   }
+	],
+	"globalStyle": {
+		"navigationBarTitleText": "疫情信息采集"
+		// "navigationBarBackgroundColor": "#0bc99d",
+		// "backgroundColor": "#F8F8F8"
+	}
+	// "tabBar": {
+	// 	"color" : "#7A7E83",
+	// 	"selectedColor" : "#007AFF",
+	// 	"borderStyle" : "black",
+	// 	"backgroundColor" : "#F8F8F8",
+	// 	"list":[
+	// 		{
+	// 		    "pagePath" : "pages/index/index",
+	// 		    "iconPath" : "static/tab_class.png",
+	// 		    "selectedIconPath" : "static/tab_class.png",
+	// 		    "text" : "首页"
+	// 		},
+	// 		{
+	// 		    "pagePath" : "pages/course/course",
+	// 		    "iconPath" : "static/tab_course.png",
+	// 		    "selectedIconPath" : "static/tab_course.png",
+	// 		    "text" : "课程"
+	// 		},
+	// 		{
+	// 		    "pagePath" : "pages/classification/classification",
+	// 		    "iconPath" : "static/tab_class.png",
+	// 		    "selectedIconPath" : "static/tab_class.png",
+	// 		    "text" : "分类"
+	// 		},
+	// 		{
+	// 		    "pagePath" : "pages/profile/profile",
+	// 		    "iconPath" : "static/tab_profile.png",
+	// 		    "selectedIconPath" : "static/tab_profile.png",
+	// 		    "text" : "我的"
+	// 		}
+	// 	]
+	// }
+}

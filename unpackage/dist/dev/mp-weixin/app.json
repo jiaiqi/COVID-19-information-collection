@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/takePhotos/takePhotos",
+    "pages/checkInCarInfo/checkInCarInfo",
+    "pages/checkInPersonInfo/checkInPersonInfo",
+    "pages/search/search"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTitleText": "疫情信息采集"
+  },
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  },
+  "sitemapLocation": "sitemap96.json"
+}
